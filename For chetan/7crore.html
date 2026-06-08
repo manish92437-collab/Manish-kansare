@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        pre{
+            margin-top: 0%;
+            margin-bottom: 0%;
+            font-size: 100px;
+            font-family: 'Times New Roman', Times, serif;
+            color:gold;
+            background-color: rgb(75, 0, 136);
+
+        }
+         
+        button{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 65px;
+        }
+    </style>
+</head>
+<body>
+    <pre>                     SROLL PLZ SIR?</pre>
+        <img src="/1668600269019.jpg" height="1000px">
+        <div id="box" style="position:relative; width: 1800px; height: 700px; border:1px solid black;">
+    <h2>KYA_TUM_MUJHE_APNA_BAAP_MANTE_HO? 😁</h2>
+
+    <button><a href="/thanks.html">Haan</a></button>
+    <button id="noBtn" style="position:absolute;">Nahi</button>
+    </div>
+
+        <script>
+            const btn = document.getElementById("noBtn");
+            const box = document.getElementById("box");
+
+            btn.addEventListener("mouseover", () => {
+            btn.style.left = Math.random() * 1700 + "px";
+            btn.style.top = Math.random() * 500 + "px";
+        });
+</script>
+</body>
+</html>
